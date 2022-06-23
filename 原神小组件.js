@@ -9,7 +9,8 @@
 
 const { MD5, getDataFromCache, getImgFromCache } = importModule('./common.js');
 
-const mihoyoCookie = "_MHYUUID=edc0e4dd-295b-47e9-8c49-d6a1908abdd5; _gat=1; ltoken=qTFmZPGwW4f7IJc6Gt6VBR314uHp22Tyk8OrmMoc; ltuid=188500201; CNZZDATA1275023096=268856585-1654589321-%7C1655207610; _ga=GA1.2.1332366471.1654592635; _gid=GA1.2.987677144.1655209009; account_id=188500201; cookie_token=XKKPZzTYsdPkSLTxS0tQjkg043C8yc37XoaH34Ej; UM_distinctid=18162251d89212-0e06ae75297b1f-2a6d4a30-505c8-18162251d8a15e4"
+// 注意：抓包填入你的米游社的cookie
+const mihoyoCookie = ""
 
 const userRoleNumber = 0 // 如果你有多个角色，请将0依次改为1,2,3...后运行查看
 // 请设置When Interacting为Open URL，URL为yuanshengame://
